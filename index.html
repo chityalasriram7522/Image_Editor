@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.8.0/fonts/remixicon.css"rel="stylesheet"/>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="variable.css">
+</head>
+<body>
+    <main>
+        <section>
+            <div class="left">
+                <div class="bottom">
+                   <i class="ri-image-line"></i>
+                   <p>No Iamge Choosen</p>
+                </div>
+                <div class="top">
+                    <label for="input-label" class="btn">Choose Image</label> <input type="file" id="input-label" hidden>
+                    <button type="reset" class="btn" id="reset-btn" >Reset</button>
+                    <button type="button" class="btn" id="Download-btn" >Download</button>
+                </div>
+            </div>
+            <div class="right">
+                <h2>Fliters</h2>
+            <div class="fliters">
+                <div class="fliter">
+                  <p>Brightness</p>
+                  <input type="range" min="0" max="200" value="100">
+                </div>
+            </div>
+            </div>
+        </section>
+    </main>
+    
+</body>
+<script src="js.js"></script>
+</html>
